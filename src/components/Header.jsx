@@ -5,7 +5,7 @@ const Header = ({ onAdd }) => {
         <h1 className="text-2xl font-bold">My Diary 📖</h1>
       </div>
       <button className="btn btn-primary" onClick={onAdd}>
-        + Add Entry
+        Add Entry
       </button>
     </div>
   );
